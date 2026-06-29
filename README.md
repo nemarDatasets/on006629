@@ -1,4 +1,6 @@
-﻿We presented twenty adult participants with harmonic complex sound (HCS) stimuli that varied in frequency in an auditory oddball protocol during simultaneous EEG and MEG recording (for details, see Inbar et al., 2025)
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006629-blue)](https://doi.org/10.82901/nemar.on006629)
+
+We presented twenty adult participants with harmonic complex sound (HCS) stimuli that varied in frequency in an auditory oddball protocol during simultaneous EEG and MEG recording (for details, see Inbar et al., 2025)
 
 
 
