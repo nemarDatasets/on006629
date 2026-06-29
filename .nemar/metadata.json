@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "SINGSING",
+  "description": "The SINGSING dataset comprises simultaneous EEG and MEG recordings from twenty adult participants exposed to harmonic complex sound stimuli of varying frequencies in an auditory oddball paradigm. This dataset enables comparative analysis of pre-attentive pitch processing at both sensor and source levels across complementary neuroimaging modalities, providing insights into auditory cortical responses to complex acoustic stimuli.",
+  "methods_description": "Data were collected using simultaneous EEG and MEG recording during an auditory oddball protocol in which participants were presented with harmonic complex sound (HCS) stimuli varying in frequency. MEG data acquisition was performed at the MEG Centre (Timone Hospital, Marseille, France).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,12 +18,39 @@
     },
     "Talya Inbar": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds006629.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "MEG"
+    },
+    {
+      "term": "auditory oddball"
+    },
+    {
+      "term": "pitch processing"
+    },
+    {
+      "term": "harmonic complex sounds"
+    },
+    {
+      "term": "pre-attentive processing"
+    },
+    {
+      "term": "source localization"
+    },
+    {
+      "term": "simultaneous EEG-MEG"
+    },
+    {
+      "term": "multimodal"
+    },
+    {
+      "term": "auditory cortex"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006629.v1.0.0",
       "identifier_type": "DOI",
@@ -51,6 +80,11 @@
       "identifier": "10.1038/sdata.2018.110",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds006629.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -66,50 +100,20 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "MEG Dataset",
   "modalities": [
     "meg"
   ],
-  "resource_type_specific": "MEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "11.4 GB (39 files)"
   ],
   "formats": [
     ".fif",
     ".json",
     ".md",
     ".py",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "The SINGSING dataset comprises simultaneous EEG and MEG recordings from twenty adult participants exposed to harmonic complex sound stimuli of varying frequencies in an auditory oddball paradigm. This dataset enables comparative analysis of pre-attentive pitch processing at both sensor and source levels across complementary neuroimaging modalities, providing insights into auditory cortical mechanisms underlying harmonic sound perception.",
-  "methods_description": "Data were collected using simultaneous EEG and MEG recording during an auditory oddball protocol in which participants were presented with harmonic complex sound (HCS) stimuli that varied in frequency. MEG data acquisition was performed at the MEG Centre (Timone Hospital, Marseille, France).",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "MEG"
-    },
-    {
-      "term": "simultaneous EEG-MEG"
-    },
-    {
-      "term": "auditory oddball"
-    },
-    {
-      "term": "pitch processing"
-    },
-    {
-      "term": "harmonic complex sounds"
-    },
-    {
-      "term": "pre-attentive processing"
-    },
-    {
-      "term": "source localization"
-    },
-    {
-      "term": "auditory cortex"
-    }
-  ],
-  "source_hash": "fad9b3d73a3a326c9c4fa68c1dfe747022df0498defa529b753671ceba075942"
+  "source_hash": "555160b75e015be07d1f1c427f213f1fa3c7d0b7701edb446b08516bf7799659"
 }
