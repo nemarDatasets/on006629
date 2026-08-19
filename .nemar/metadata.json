@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "SINGSING",
-  "description": "The SINGSING dataset comprises simultaneous EEG and MEG recordings from twenty adult participants exposed to harmonic complex sound stimuli of varying frequencies in an auditory oddball paradigm. This dataset enables comparative analysis of pre-attentive pitch processing at both sensor and source levels across complementary neuroimaging modalities, providing insights into auditory cortical responses to complex acoustic stimuli.",
-  "methods_description": "Data were collected using simultaneous EEG and MEG recording during an auditory oddball protocol in which participants were presented with harmonic complex sound (HCS) stimuli varying in frequency. MEG data acquisition was performed at the MEG Centre (Timone Hospital, Marseille, France).",
+  "description": "This dataset contains simultaneous EEG and MEG recordings from twenty adult participants presented with harmonic complex sound (HCS) stimuli varying in frequency, in an auditory oddball paradigm. The study investigates pre-attentive pitch processing at both sensor and source levels, comparing EEG and MEG responses. Data acquisition was conducted at the MEG Centre, Timone Hospital, Marseille, France.",
+  "methods_description": "Twenty adult participants were presented with harmonic complex sound stimuli varying in frequency in an auditory oddball protocol, during simultaneous EEG and MEG recording.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -26,28 +26,18 @@
       "term": "MEG"
     },
     {
-      "term": "auditory oddball"
+      "term": "auditory oddball paradigm"
     },
     {
-      "term": "pitch processing"
+      "term": "Pitch Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010898"
     },
     {
       "term": "harmonic complex sounds"
     },
     {
-      "term": "pre-attentive processing"
-    },
-    {
-      "term": "source localization"
-    },
-    {
-      "term": "simultaneous EEG-MEG"
-    },
-    {
-      "term": "multimodal"
-    },
-    {
-      "term": "auditory cortex"
+      "term": "sensor and source level analysis"
     }
   ],
   "related_identifiers": [
@@ -89,14 +79,12 @@
   ],
   "funding_references": [
     {
-      "funder_name": "ANR",
-      "award_number": "ANR-16-CONV-0002",
-      "award_title": "Institute of Convergence ILCB (France 2030)"
+      "funder_name": "Institute of Convergence ILCB (France 2030)",
+      "award_number": "ANR-16-CONV-0002"
     },
     {
-      "funder_name": "ANR",
-      "award_number": "ANR-11-IDEX-0001-02",
-      "award_title": "Excellence Initiative of Aix-Marseille University A*MIDEX"
+      "funder_name": "Excellence Initiative of Aix-Marseille University A*MIDEX",
+      "award_number": "ANR-11-IDEX-0001-02"
     }
   ],
   "resource_type_general": "Dataset",
