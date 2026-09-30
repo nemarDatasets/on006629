@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "SINGSING",
-  "description": "This dataset contains simultaneous EEG and MEG recordings from twenty adult participants presented with harmonic complex sound (HCS) stimuli varying in frequency, in an auditory oddball paradigm. The study investigates pre-attentive pitch processing at both sensor and source levels, comparing EEG and MEG responses. Data acquisition was conducted at the MEG Centre, Timone Hospital, Marseille, France.",
-  "methods_description": "Twenty adult participants were presented with harmonic complex sound stimuli varying in frequency in an auditory oddball protocol, during simultaneous EEG and MEG recording.",
+  "description": "SINGSING is a simultaneous EEG and MEG dataset from twenty adult participants who listened to harmonic complex sounds that varied in frequency in an auditory oddball paradigm. It supports investigation of pre-attentive pitch processing at sensor and source levels, and allows comparison of EEG and MEG recordings acquired at the same time.",
+  "methods_description": "Twenty adults were presented with harmonic complex sound stimuli varying in frequency in an auditory oddball protocol while EEG and MEG were recorded simultaneously at the MEG Centre of Timone Hospital, Marseille. Data were organized in BIDS format with MNE-BIDS.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,13 +20,13 @@
   },
   "keywords": [
     {
-      "term": "EEG"
-    },
-    {
       "term": "MEG"
     },
     {
-      "term": "auditory oddball paradigm"
+      "term": "EEG"
+    },
+    {
+      "term": "auditory oddball"
     },
     {
       "term": "Pitch Perception",
@@ -37,7 +37,7 @@
       "term": "harmonic complex sounds"
     },
     {
-      "term": "sensor and source level analysis"
+      "term": "mismatch negativity"
     }
   ],
   "related_identifiers": [
@@ -93,7 +93,7 @@
     "meg"
   ],
   "sizes": [
-    "11.4 GB (39 files)"
+    "10.63 GB (39 files)"
   ],
   "formats": [
     ".fif",
